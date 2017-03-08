@@ -141,9 +141,9 @@
         </div>
         <!-- REPOS -->
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <div class="service-box" id="github-account">
+            <div class="row text-center" id="github-account">
+                <div class="">
+                    <div class="service-box" >
                         <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
                     </div>
                 </div>
@@ -260,7 +260,7 @@
                             $project1 = v.html_url;
                             $project2 = v.html_url;
                             $project3 = v.html_url;
-                            $displayFor.append('<div class="box"><a href="'+ v.html_url + '">' + v.name + '</a></div>');
+                            $displayFor.append('<div class="box col-xs-12 col-sm-6 col-md-4"><a href="'+ v.html_url + '">' + v.name + '</a></div>');
                         })
                     });
                 });
